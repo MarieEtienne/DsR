@@ -1,0 +1,48 @@
+---
+title: "Présentation"
+output: 
+  html_document:
+   toc: true
+   toc_float: true
+   logo: LogoAgrocampusOuest.jpg
+   number_sections: false
+   highlight: tango
+   css: style.css
+---
+
+
+
+```{r setup_teaching, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+library(leaflet)
+library(tidyverse)
+library(ggplot2)
+```
+
+
+## L'équipe
+
+Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dans la communauté R. 
+
+
+## Les formations
+
+
+|  |  |  |  |
+|:--------------:|:--------------:|:--------------:|:--------------:|
+|[<img src="img/visu_resize.png" alt="drawing" width="100%"/></img>  ](manipvisu.html) | |[<img src="img/R_resize.png" alt="drawing" width="100%"/></img>  ](add.html)|  [<img src="img/img_senso.png" alt="drawing" width="100%"/>](senso.html)   |
+| **Manipulation et**  \ **visualisation de données**  | **Modélisation statistique** | **Analyse de données** |  **Sensométrie** \ **avec R**|
+
+
+## L'école
+
+Les formations sont dispensées à Agrocampus Ouest, Rennes.
+
+```{r, echo=FALSE}
+df <- tibble(long = -1.71, lat = -48.114, name='ACO - Bat 24' )
+m <- leaflet() %>%
+     setView(lng =-1.71, lat = 48.114, zoom = 15)
+m %>%
+     addTiles()
+```
+
