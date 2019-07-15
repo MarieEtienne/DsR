@@ -30,7 +30,7 @@ Les formateurs sont des enseignants chercheurs d'Agrocampus Ouest impliqués dan
 
 |  |  |  |  |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-|[<img src="img/visu_resize.png" alt="drawing" width="100%"/></img>  ](manipvisu.html) | |[<img src="img/R_resize.png" alt="drawing" width="100%"/></img>  ](add.html)|  [<img src="img/img_senso.png" alt="drawing" width="100%"/>](senso.html)   |
+|[<img src="img/visu_hexa.png" alt="drawing" width="100%"/></img>  ](manipvisu.html) | |[<img src="img/R_resize.png" alt="drawing" width="100%"/></img>  ](add.html)|  [<img src="img/img_senso.png" alt="drawing" width="100%"/>](senso.html)   |
 | **Manipulation et**  \ **visualisation de données**  | **Modélisation statistique** | **Analyse de données** |  **Sensométrie** \ **avec R**|
 
 
